@@ -1,7 +1,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    min-width: 1000px;
     font-family: Arial;
     color: #3c3a3a
 }
@@ -84,8 +83,10 @@ aside img {
 }
 
 .fixed-conteiner {
-    width: 960px;
+    max-width: 1000px;
+    min-width: 320px;
     margin: 0 auto;
+    padding: 0 20px;
     position: relative;
 }
 
@@ -159,6 +160,10 @@ aside img {
     border: none;
     outline: none;
     background: transparent;
+}
+
+.scrolled-panel {
+    overflow-x: auto;
 }
 
 .nav-panel {
